@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+}
+#main{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#watch{
+   position: relative;
+   width: 550px;
+   height: 500px;
+   background-image: url("clock.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+#hour{
+    position: absolute;
+    width: 240px;
+}
+#minute{
+    position: absolute;
+     width: 270px;
+}
+#second{
+    position: absolute;
+     width: 370px;
+}
